@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  car_name: MyString
+  distance: MyText
+  type: MyText
+  colour: MyString
+  steering: MyText
+  fuel: MyString
+  seats: 1
+  year: 1
+  price$: 1
+
+two:
+  car_name: MyString
+  distance: MyText
+  type: MyText
+  colour: MyString
+  steering: MyText
+  fuel: MyString
+  seats: 1
+  year: 1
+  price$: 1

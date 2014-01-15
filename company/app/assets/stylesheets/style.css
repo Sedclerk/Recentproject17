@@ -1,0 +1,42 @@
+body {
+background: #ffa500;
+text-align: center;}
+
+#main {width : 1000px;
+height: 600px;
+background: url('pic2.jpg') repeat-x;
+margin: 25px auto;
+border : solid 2px #1c3923;
+border-bottom: solid 0px;
+padding: 10px;}
+
+h1 {
+text-align: center;
+font-family:"Times New Roman";
+font: 24pt;}
+
+h2 {text-align: center;
+font-family:"Times New Roman";
+font: 12pt;}
+
+h3 {text-align: center;
+font-family:"Times New Roman";
+font: 12pt;}
+
+h4 {text-align: center;
+font-family:"Times New Roman";
+font: 14pt;}
+
+p {font-family: "Calibri";
+font-size: 16pt;
+text-align: left;
+text-indent: 40px;}
+
+hr {
+height: 4px;
+color: #ffa500;
+}
+
+.centerTable { margin: 0px auto; } 
+
+
