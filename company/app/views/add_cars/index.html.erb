@@ -1,0 +1,31 @@
+<h1>Listing add_cars</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @add_cars.each do |add_car| %>
+      <tr>
+        <td><%= add_car.make %></td>
+        <td><%= add_car.model %></td>
+        <td><%= add_car.description %></td>
+        <td><%= link_to 'Show', add_car %></td>
+        <td><%= link_to 'Edit', edit_add_car_path(add_car) %></td>
+        <td><%= link_to 'Destroy', add_car, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Add car', new_add_car_path %>
